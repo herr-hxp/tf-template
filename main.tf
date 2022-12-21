@@ -1,7 +1,7 @@
 ## PROVIDER
 # Configure the OpenStack Provider
 provider "openstack" {
-  # Use your .rc file instead by sourcing it
+  # Use your rc file instead by sourcing it
   #user_name          = "" # use $OS_USERNAME
   #tenant_name        = "" # use $OS_PROJECT_NAME
   #tenant_id          = "" # use $OS_PROJECT_ID
