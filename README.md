@@ -1,5 +1,7 @@
 # tf template
-A terraform template to modify after your needs.
+A terraform template for Elastx OpenStack to modify after your needs.
+
+_Note: This terraform demo currently uses a local terraform state_
 
 ## Usage
 1. Clone the repo
