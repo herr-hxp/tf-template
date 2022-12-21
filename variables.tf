@@ -5,7 +5,7 @@
 # Change this to your actual key in OpenStack
 variable "key_name" {
   type    = string
-  default = "<your key here>"
+  default = "<your key name here>"
 }
 
 ## Network Variables
