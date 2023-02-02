@@ -69,11 +69,15 @@ variable "sg2_desc" {
   default = "demo SG for Port 22"
 }
 
+## Instance Variables
+
+# Server Group
 variable "servergroup_name" {
   type    = string
   default = "demo_servergroup"
 }
 
+# Instance
 variable "instance_name" {
   type    = string
   default = "demoserver"
@@ -89,13 +93,13 @@ variable "flavor_name" {
   default = "v1-standard-2"
 }
 
-variable "fip_pool" {
-  type    = string
-  default = "elx-public1"
-}
-
 variable "region" {
   type    = string
   default = "sto1"
 }
 
+# Floating IP
+variable "fip_pool" {
+  type    = string
+  default = "elx-public1"
+}
