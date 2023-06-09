@@ -43,9 +43,10 @@ variable "router_name" {
   default = "demo_router"
 }
 
+# Used if you already have an existing router
 variable "router_id" {
   type    = string
-  default = "71b2edab-5000-43da-b191-d572f1bc22b3"
+  default = "<router id>"
 }
 
 # Security Groups
